@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'DIN Pro'; 
+  src: url('./fonts/FontsFree-Net-DINPro-1.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, button, li, a {
+  font-family: 'Din Pro', sans-serif;
+  line-height: 150%;
+  -webkit-font-smooth: antialised
+}
