@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 
-@font-face {
-  font-family: 'DIN Pro'; 
-  src: url('./fonts/FontsFree-Net-DINPro-1.ttf') format('truetype'); 
-  font-weight: normal;
-  font-style: normal;
-}
 
 body, button, li, a {
-  font-family: 'Din Pro', sans-serif;
+  font-family: DINPro, sans-serif;
   line-height: 150%;
-  -webkit-font-smooth: antialised
+  -webkit-font-smooth: antialiased;
+}
+
+.font-feature-cling-liga-off {
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.fix-absolute-transform {
+  transform: translate(-50%, -50%);
 }
