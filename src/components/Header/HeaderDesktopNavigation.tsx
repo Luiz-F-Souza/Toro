@@ -5,7 +5,7 @@ export const HeaderDesktopNavigation = () => {
   return (
     <>
       <nav className="hidden lg:block">
-        <ul className="flex gap-10">
+        <ul className="flex gap-8 xl:gap-10">
           <li>
             <p className="text-gray-07">Bolsa</p>
           </li>
