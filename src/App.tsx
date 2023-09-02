@@ -1,19 +1,8 @@
-import { HomePage } from "./Pages/Home/HomePage"
-import { Header } from "@components/Header/Header"
-
+import { RouterProvider } from "react-router-dom";
+import { routes } from "./Routes/Routes";
 
 function App() {
-
-
-  return (
-    <div>
-      <Header />
-      <HomePage />
-      <footer>
-        
-      </footer>
-    </div>
-  )
+  return <RouterProvider router={routes} />;
 }
 
-export default App
+export default App;
