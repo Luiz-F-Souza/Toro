@@ -4,7 +4,7 @@ import papperIcon from "@assets/icons/papper-icon.svg";
 import buildingsIcon from "@assets/icons/buildings-icon.svg";
 import globeIcon from "@assets/icons/globe-icon.svg";
 import scrollIcon from "@assets/icons/scroll-icon.svg";
-import { Button } from "@src/components/Buttons/Button";
+import { LinkButton } from "@src/components/Buttons/LinkButton";
 import { BenefitCard } from "./components/BenefitCard/BenefitCard";
 
 export const BenefitsSection = () => {
@@ -15,7 +15,9 @@ export const BenefitsSection = () => {
           className="
             max-w-[57.375rem] 
             text-brand-primary-darkest 
-            text-center leading-[2.6rem]
+            text-center 
+            leading-[110%] lg:leading-[2.6rem]
+            tracking-wide lg:tracking-normal
             text-[1.75rem] lg:text-[2rem] 
             mx-auto  
             pt-10 lg:pt-20 
@@ -26,7 +28,7 @@ export const BenefitsSection = () => {
           <strong>alavanque seus resultados no longo prazo</strong>
         </h3>
 
-        <div 
+        <div
           className="
             relative 
             grid 
@@ -41,7 +43,8 @@ export const BenefitsSection = () => {
               gap-8 
               lg:mt-10 
               lg:flex-col
-              order-2 lg:order-none 
+              lg:items-center
+              order-1 lg:order-none 
               justify-center
             "
           >
@@ -62,8 +65,7 @@ export const BenefitsSection = () => {
             />
           </div>
 
-          
-          <div 
+          <div
             className="
               order-3
               sm:col-span-2 lg:col-span-1
@@ -72,11 +74,14 @@ export const BenefitsSection = () => {
               my-10
             "
           >
-            <Button className="w-full lg:w-80 px-8 py-3" >
+            <LinkButton
+              to="/campanha/aprenda"
+              className="w-full lg:w-80 px-8 py-3"
+            >
               Abra sua conta grátis
-            </Button>
+            </LinkButton>
           </div>
-          <picture 
+          <picture
             className="
               z-10 
               order-last lg:order-none
@@ -94,7 +99,6 @@ export const BenefitsSection = () => {
               height={610}
             />
           </picture>
-          
 
           <div
             className="
@@ -108,10 +112,11 @@ export const BenefitsSection = () => {
 
           <div
             className="
-              flex flex-wrap 
-              gap-8
+              flex flex-wrap
+              gap-8 
               mt-8 sm:mt-0 lg:mt-10 
               lg:flex-col
+              lg:items-end
               order-2 lg:order-none 
               justify-center
             "
@@ -135,9 +140,12 @@ export const BenefitsSection = () => {
         </div>
 
         <div className="hidden lg:flex justify-center mt-10">
-          <Button className="w-full lg:w-80 px-8 py-3">
+          <LinkButton
+            to="/campanha/aprenda"
+            className="w-full lg:w-80 px-8 py-3"
+          >
             Abra sua conta grátis
-          </Button>
+          </LinkButton>
         </div>
       </div>
     </article>

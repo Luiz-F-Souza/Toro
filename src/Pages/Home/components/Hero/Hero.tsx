@@ -1,4 +1,4 @@
-import { Button } from "@src/components/Buttons/Button";
+import { LinkButton } from "@src/components/Buttons/LinkButton";
 import santanderLogo from "@assets/santander-logo.svg";
 import heroImage from "@assets/hero-image.webp";
 import heroImage2x from "@assets/hero-image@2x.webp";
@@ -37,7 +37,7 @@ export const Hero = () => {
               mb-10 ml-0
             "
         >
-          <li className="before:content-['•'] flex gap-2">
+          <li className="before:content-['•'] before:text-xl flex gap-2">
             <p
               className="
                 inline-block 
@@ -51,7 +51,7 @@ export const Hero = () => {
               Assessoria Exclusiva gratuita.
             </p>
           </li>
-          <li className="before:content-['•'] flex gap-2">
+          <li className="before:content-['•'] before:text-xl flex gap-2">
             <p
               className="
                 inline-block 
@@ -65,7 +65,7 @@ export const Hero = () => {
               Recomendações de investimentos por experts.
             </p>
           </li>
-          <li className="before:content-['•'] flex gap-2">
+          <li className="before:content-['•'] before:text-xl flex gap-2">
             <p
               className="
                 inline-block 
@@ -81,9 +81,9 @@ export const Hero = () => {
           </li>
         </ul>
 
-        <Button className="w-full md:w-[21.75rem] mb-6">
+        <LinkButton to="/campanha/aprenda" className="w-full md:w-[21.75rem] mb-6 ">
           Abra sua conta grátis
-        </Button>
+        </LinkButton>
 
         <div className="flex gap-4 items-center">
           <p className="text-xs font-normal leading-4 text-gray-07">
@@ -107,7 +107,7 @@ export const Hero = () => {
             className="w-full lg:w-[39.5625rem] lg:max-w-none"
             loading="eager"
             alt="Gráfico mostrando a rentabilidade acumulada comparada entre uma carteira Toro e o Ibovespa. Comparação feita entre 2020 e 2023. nota de rodapé: Esse é um gráfico ilustrativo e não representa uma promessa de ganhos. Rentabilidade passada não é garantia de rentabilidade futura."
-            width={630}
+            width={633}
             height={430}
           />
         </picture>
