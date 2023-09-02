@@ -13,7 +13,14 @@ export const BenefitCardContainer: React.FC<Props> = ({
   return (
     <div
       className={twMerge(
-        "w-auto lg:w-[21.75rem] sm:h-1/2 md:h-auto rounded-lg shadow-lg p-6 bg-neutral-lightest  z-10 ",
+        `
+          w-auto lg:w-[21.75rem] 
+          sm:h-1/2 lg:h-auto 
+          rounded-lg 
+          shadow-lg 
+          p-6 
+          bg-neutral-lightest
+          z-10 `,
         className
       )}
       {...props}
