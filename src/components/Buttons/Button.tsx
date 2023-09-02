@@ -22,6 +22,7 @@ export const Button: React.FC<Props> = ({
             : "text-brand-primary border-brand-primary border-1 hover:text-neutral-lightest"
         }
         w-[9.375rem] 
+        h-[50px]
         text-sm font-semibold
         rounded 
         px-4 py-3
