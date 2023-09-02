@@ -27,6 +27,8 @@ export const Header = () => {
             src={logo}
             alt="Logotipo da Toro investimentos"
             className="w-full"
+            width={130}
+            height={25}
           />
         </div>
 

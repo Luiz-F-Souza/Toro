@@ -29,7 +29,7 @@ export const HeaderMobileNavigation = () => {
         </Button>
 
         <button className="cursor-pointer" onClick={handleToggleMenu}>
-          <img src={menuIcon} alt="Ícone de abrir o menu" />
+          <img src={menuIcon} alt="Ícone de abrir o menu" width={30} height={25} />
         </button>
 
         <aside
