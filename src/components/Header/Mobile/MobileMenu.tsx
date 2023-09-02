@@ -16,16 +16,16 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
       {createPortal(
         <section
           className={`
-        fixed
-        top-0 bottom-0 ${isOpen ? "right-0" : "right-[-150%]"}
-        z-50
-        bg-neutral-lightest
-        w-[85vw] sm:w-[70vw]
-        transition-[right]
-        duration-200
-        px-[10vw] py-[7vh]
-        overflow-auto
-        `}
+            fixed
+            top-0 bottom-0 ${isOpen ? "right-0" : "right-[-150%]"}
+            z-50
+            bg-neutral-lightest
+            w-[85vw] sm:w-[70vw]
+            transition-[right]
+            duration-200
+            px-[10vw] py-[7vh]
+            overflow-auto
+          `}
         >
           <header className="flex justify-end">
             <button 
@@ -38,6 +38,7 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 width={25}
                 height={25}
                 alt="botão para fechar o menu"
+                loading="lazy"
               />
             </button>
           </header>
@@ -48,11 +49,11 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 <Link
                   to="/bolsa"
                   className="
-                block
-                p-1 pl-0  
-                text-sm text-brand-primary-dark 
-                leading-5 font-medium
-              "
+                    block
+                    p-1 pl-0  
+                    text-sm text-brand-primary-dark 
+                    leading-5 font-medium
+                  "
                 >
                   Bolsa de valores
                 </Link>
@@ -106,11 +107,11 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 <Link
                   to="/trader"
                   className="
-                  block
-                  p-1 pl-0  
-                  text-sm text-brand-primary-dark 
-                  leading-5 font-medium
-                "
+                    block
+                    p-1 pl-0  
+                    text-sm text-brand-primary-dark 
+                    leading-5 font-medium
+                  "
                 >
                   Trading na touro
                 </Link>
@@ -119,11 +120,11 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 <Link
                   to="/plataformas"
                   className="
-                  block
-                  p-1 pl-0  
-                  text-sm text-brand-primary-dark 
-                  leading-5 font-medium
-                "
+                    block
+                    p-1 pl-0  
+                    text-sm text-brand-primary-dark 
+                    leading-5 font-medium
+                  "
                 >
                   Plataformas de Trading
                 </Link>
@@ -138,11 +139,11 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 <Link
                   to="/aprenda"
                   className="
-                  block
-                  p-1 pl-0  
-                  text-sm text-brand-primary-dark 
-                  leading-5 font-medium
-                "
+                    block
+                    p-1 pl-0  
+                    text-sm text-brand-primary-dark 
+                    leading-5 font-medium
+                  "
                 >
                   Cursos
                 </Link>
@@ -151,11 +152,11 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 <Link
                   to="/estrategias"
                   className="
-                  block
-                  p-1 pl-0  
-                  text-sm text-brand-primary-dark 
-                  leading-5 font-medium
-                "
+                    block
+                    p-1 pl-0  
+                    text-sm text-brand-primary-dark 
+                    leading-5 font-medium
+                 "
                 >
                   Estratégias
                 </Link>
@@ -164,11 +165,11 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
                 <Link
                   to="/aprenda"
                   className="
-                  block
-                  p-1 pl-0
-                  text-sm text-brand-primary-dark 
-                  leading-5 font-medium
-                "
+                    block
+                    p-1 pl-0
+                    text-sm text-brand-primary-dark 
+                    leading-5 font-medium
+                  "
                 >
                   Conteúdos
                 </Link>

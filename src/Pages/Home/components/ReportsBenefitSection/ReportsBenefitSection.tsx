@@ -5,7 +5,7 @@ import { LinkButton } from "@src/components/Buttons/LinkButton";
 export const ReportsBenefitSection = () => {
   return (
     <section className="bg-gray-04">
-      <div 
+      <div
         className="
           max-w-screen-lg 
           flex 
@@ -29,6 +29,7 @@ export const ReportsBenefitSection = () => {
             className="sm:min-w-[22.5rem] md:min-w-[30rem]"
             width={666}
             height={560}
+            loading="lazy"
           />
         </picture>
         <article className="py-10 md:py-0 max-w-[33.625rem]">
@@ -69,7 +70,10 @@ export const ReportsBenefitSection = () => {
             equipe de Análise.
           </p>
 
-          <LinkButton to="/campanha/aprenda" className="w-full md:w-80 px-8 py-3">
+          <LinkButton
+            to="/campanha/aprenda"
+            className="w-full md:w-80 px-8 py-3"
+          >
             Abra sua conta grátis
           </LinkButton>
         </article>

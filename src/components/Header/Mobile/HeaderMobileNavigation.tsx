@@ -16,13 +16,13 @@ export const HeaderMobileNavigation = () => {
     <>
       <section
         className="
-        flex lg:hidden
-        gap-7 sm:gap-4 
-        items-center
+          flex lg:hidden
+          gap-7 sm:gap-4 
+          items-center
         "
       >
         <Link to="/entrar" className="hidden md:flex gap-3 items-center">
-          <img src={userIcon} width={25} height={25} alt="" />
+          <img src={userIcon} width={25} height={25} alt="" loading="lazy" />
           <p className="text-sm text-gray-08 font-normal">Fazer login</p>
         </Link>
 
@@ -44,6 +44,7 @@ export const HeaderMobileNavigation = () => {
             alt="Ícone de abrir o menu"
             width={30}
             height={25}
+            loading="lazy"
           />
         </button>
 
