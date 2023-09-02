@@ -28,6 +28,7 @@ export default {
     },
     extend: {
       screens:{
+        'smaller':'360px',
         'sm': "600px",
         'md': '970px',
         'lg': "1140px",
