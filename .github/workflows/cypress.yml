@@ -6,6 +6,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Start React App
+        run: |
+          cd $GITHUB_WORKSPACE
+          npm run dev
+
+
+       continue-on-error: false
+
+      - name: Wait for React App
+        run: sleep 25  
+
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
