@@ -13,6 +13,10 @@ export const routes = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />
+      },
+      {
+        path: '/bolsa',
+        element: <HomePage />
       }
     ]
   },
