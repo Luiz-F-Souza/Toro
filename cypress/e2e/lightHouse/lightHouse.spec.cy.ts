@@ -1,7 +1,5 @@
 /// <reference types="Cypress"/>
-import '@cypress-audit/lighthouse';
-
-
+import '@cypress-audit/lighthouse/commands';
 
 
 describe("light house tests", () => {
