@@ -25,7 +25,8 @@
       "@src/*": ["src/*"],
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"]
-    }
+    },
+    "types": ["cypress","cypress-axe", "node"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
