@@ -27,11 +27,10 @@ export const LinkButton: React.FC<Props> = ({
           }
           block
           w-[9.375rem] 
-          h-[50px]
           text-sm font-semibold
           text-center
           rounded 
-          px-4 py-3
+          p-4
           hover:bg-brand-primary-dark 
           active:bg-brand-primary
           transition-colors duration-200

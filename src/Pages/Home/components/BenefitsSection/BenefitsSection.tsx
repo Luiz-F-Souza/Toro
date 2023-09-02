@@ -76,7 +76,7 @@ export const BenefitsSection = () => {
           >
             <LinkButton
               to="/campanha/aprenda"
-              className="w-full lg:w-80 px-8 py-3"
+              className="w-full lg:w-80 px-8"
             >
               Abra sua conta grátis
             </LinkButton>
