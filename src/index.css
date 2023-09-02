@@ -2,10 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('./assets/fonts/otf/D-DIN-PRO-400-Regular.otf') format('opentype');
+  font-weight: 400;
+}
 
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('./assets/fonts/otf/D-DIN-PRO-500-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'D-DIN-PRO';
+  src: url('./assets/fonts/otf/D-DIN-PRO-700-Bold.otf') format('opentype');
+  font-weight: 700;
+}
 
 body, button, li, a {
-  font-family: DINPro, sans-serif;
+  font-family: D-DIN-PRO, sans-serif;
   line-height: 150%;
   -webkit-font-smoothing: antialiased;
   font-smooth: always; 
