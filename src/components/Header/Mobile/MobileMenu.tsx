@@ -20,7 +20,7 @@ export const MobileMenu: React.FC<MobileMenuProp> = ({
         top-0 bottom-0 ${isOpen ? "right-0" : "right-[-150%]"}
         z-50
         bg-neutral-lightest
-        w-[70vw]
+        w-[85vw] sm:w-[70vw]
         transition-[right]
         duration-200
         px-[10vw] py-[7vh]
