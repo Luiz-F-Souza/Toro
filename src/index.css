@@ -7,7 +7,9 @@
 body, button, li, a {
   font-family: DINPro, sans-serif;
   line-height: 150%;
-  -webkit-font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: always; 
+  text-rendering: optimizeLegibility; 
 }
 
 .font-feature-cling-liga-off {
