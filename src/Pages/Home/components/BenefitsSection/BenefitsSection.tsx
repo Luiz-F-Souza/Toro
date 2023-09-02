@@ -107,7 +107,8 @@ export const BenefitsSection = () => {
               rounded-[0.478rem]
               w-[calc(100vw-48px)] h-[20rem]
               lg:w-[32.02675rem] lg:h-[28.63719rem] 
-              bg-gray-05 "
+              bg-gray-05 
+            "
           />
 
           <div

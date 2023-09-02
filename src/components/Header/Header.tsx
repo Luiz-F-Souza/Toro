@@ -1,31 +1,28 @@
 import logo from "@assets/logo.svg";
-// import userIcon from "../../assets/icons/user-account.svg";
 import { HeaderDesktopNavigation } from "./HeaderDesktopNavigation";
 import { HeaderMobileNavigation } from "./Mobile/HeaderMobileNavigation";
 
 export const Header = () => {
-
-  
   return (
     <header
       className="
-      shadow-sm
-      sticky
-      top-0
-      bg-neutral-lightest
-      z-30
+        shadow-sm
+        sticky
+        top-0
+        bg-neutral-lightest
+        z-30
       "
     >
       <div
         className="
-        max-w-[1500px]
-        mx-auto
-        px-6 md:px-10 
-        py-[.875rem]
-        gap-[.625rem]
-        flex
-        justify-between 
-        items-center
+          max-w-[1500px]
+          mx-auto
+          px-6 md:px-10 
+          py-[.875rem]
+          gap-[.625rem]
+          flex
+          justify-between 
+          items-center
         "
       >
         <div>
