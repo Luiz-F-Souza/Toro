@@ -1,6 +1,6 @@
 import phonesMockup2x from "@assets/phones-mockup@2x.webp";
 import phonesMockup from "@assets/phones-mockup.webp";
-import { Button } from "@src/components/Buttons/Button";
+import { LinkButton } from "@src/components/Buttons/LinkButton";
 
 export const ReportsBenefitSection = () => {
   return (
@@ -17,21 +17,21 @@ export const ReportsBenefitSection = () => {
       >
         <picture
           className="
-            w-full
-            lg:-ml-32  
+            -ml-20 smaller:-ml-24 sm:ml-auto md:-ml-32 
             order-last md:order-first
-            mx-auto md:mx-0
+            mx-auto 
           "
         >
           <source media="(min-width:960px)" srcSet={phonesMockup2x} />
           <img
             src={phonesMockup}
             alt="Celular mostrando várias telas com benefícios de se tornar um cliente Toro."
-            width={565}
-            height={475}
+            className="sm:min-w-[22.5rem] md:min-w-[30rem]"
+            width={666}
+            height={560}
           />
         </picture>
-        <article className="py-10 md:py-0">
+        <article className="py-10 md:py-0 max-w-[33.625rem]">
           <h3
             className="
               text-brand-primary-darkest 
@@ -69,9 +69,9 @@ export const ReportsBenefitSection = () => {
             equipe de Análise.
           </p>
 
-          <Button className="w-full md:w-80 px-8 py-3">
+          <LinkButton to="/campanha/aprenda" className="w-full md:w-80 px-8 py-3">
             Abra sua conta grátis
-          </Button>
+          </LinkButton>
         </article>
       </div>
     </section>
