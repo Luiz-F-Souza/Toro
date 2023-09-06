@@ -66,7 +66,7 @@ export const HeaderDesktopNavigation = () => {
           <p className="text-sm text-gray-08 font-normal">Fazer login</p>
         </Link>
 
-        <LinkButton to="/entrar" variant="outlined" className="h-auto">
+        <LinkButton to="/entrar" variant="outlined" >
           Abra sua conta
         </LinkButton>
       </section>

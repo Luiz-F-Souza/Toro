@@ -29,7 +29,7 @@ export const HeaderMobileNavigation = () => {
         <LinkButton
           to="/campanha/aprenda"
           variant="outlined"
-          className="hidden smaller:block w-[7.9375rem] sm:w-[9.375rem]"
+          className="hidden smaller:block w-[7.9375rem] sm:w-[9.375rem] px-0"
         >
           Abra sua conta
         </LinkButton>
